@@ -1,0 +1,19 @@
+{
+  "name": "timerange",
+  "version": "0.1.0",
+  "description": "returns start and end timestamps for YYYY-MM-DD, YYYY-MM, or YYYY",
+  "main": "timerange.js",
+  "dependencies":{
+    "moment":""
+  },
+  "devDependencies":{
+    "mocha":"",
+    "should":""
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*"
+  },
+  "repository": "",
+  "author": "Brock Whitten",
+  "license": "MIT"
+}
