@@ -4,16 +4,19 @@
   "description": "returns start and end timestamps for YYYY-MM-DD, YYYY-MM, or YYYY",
   "main": "timerange.js",
   "dependencies":{
-    "moment":""
+    "moment":"1.7.2"
   },
   "devDependencies":{
-    "mocha":"",
-    "should":""
+    "mocha":"1.6.0",
+    "should":"1.2.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*"
   },
-  "repository": "",
+  "repository": { 
+    "type": "git",
+    "url": "https://github.com/sintaxi/node-timerange.git"
+  }
   "author": "Brock Whitten",
   "license": "MIT"
 }
