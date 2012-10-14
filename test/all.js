@@ -7,7 +7,6 @@ describe("all", function(){
     var tr = timerange("2012")
     tr.should.have.property("start")
     tr.should.have.property("end")
-    console.log(tr)
     done()
   })
 
