@@ -3,7 +3,7 @@ var moment = require("moment")
 module.exports = function(date){
   var start, end;
   var m = moment(date)
-
+  
   if(!m.isValid()){
     var m = moment()
     date = null
@@ -26,13 +26,13 @@ module.exports = function(date){
   if(delta){
     var s = m.startOf(delta)
     var e = m.endOf(delta)
-    start = s.unix()
-    end   = e.unix()
+    start = s.valueOf()
+    end   = e.valueOf()
   }else{
     start = 0
-    end = m.endOf("day").unix()
+    end   = m.valueOf()
   }
-
+  
   return {
     start: start,
     end: end
